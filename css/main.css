@@ -1,0 +1,19 @@
+nav{
+  /* background-color: blue; */
+  width: 20%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 0 0 black;
+}
+
+a{
+  text-decoration: none;
+  text-emphasis: none;
+  color: black;
+}
+
+.general{
+  display: flex;
+}
