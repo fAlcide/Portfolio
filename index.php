@@ -14,17 +14,14 @@
   </head>
   <body>
     <div class="general">
-      <nav>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="#">Home</a></li>
-          <li class="list-group-item"><a href="#">CV</a></li>
-          <li class="list-group-item"><a href="#">Projects</a></li>
-          <li class="list-group-item"><a href="#">GitHub</a></li>
-          <li class="list-group-item"><a href="#"></a></li>
-        </ul>
-      </nav>
-      <div class="container">
-        <h1>Alcide</h1>
+    <?php  include("templates/nav.php") ?>
+      <div class="container-perso">
+        <div class="header-main">
+          <h1>Alcide Faucheron <hr> </h1>
+        </div>
+        <article class="presentation">
+          <p>Jeunne développeur encore en étude, je m'adonne à quelques projets.</p>
+        </article>
       </div>
     </div>
   </body>

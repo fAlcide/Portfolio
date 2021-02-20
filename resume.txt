@@ -1,0 +1,72 @@
+Alcide FAUCHERON
+Alternance en informatique
+
+LILLE
++33 6 50 88 32 89
+
+
+INFORMATIONS PERSONNELLES
+  Address: 34, LILLE, 59160
+  Date of birth: 05/01/2001 THIONVILLE, FRANCE
+  Nationality: Française
+  Driving License: Permis B
+  Hobbies: Sport (tennis, vélo, rugby,...)
+Découvrir de nouvelles cultures
+
+PROFILS SOCIAUX
+  * LinkedIn: https://www.linkedin.com/in/alcide-faucheron/
+
+LANGUES
+  ★★★★☆ Anglais
+  ★★★☆☆ Allemend
+
+COMPÉTENCES
+  ★★★★☆ PHP
+  ★★★★☆ SQL
+  ★★★★☆ Python
+  ★★★★☆ Java
+  ★★★☆☆ JS
+  ★★★☆☆ C
+  ★★★☆☆ Arduino
+  ★★★★★ Visual Studio Code
+  ★★★★★ 
+
+EXPÉRIENCE PROFESSIONNELLE
+  * septembre 2020 – Présent
+    Développeur web alternant  à GRDF - Direction Nord-Ouest, LILLE
+      
+  Création de pages d'un site intranet dynamique en htlm, CSS, JS, ajax, jquery, PHP 
+   Création de bases de données en SQL 
+  Utilisation du modèle MVC sous PHP 
+   Debogage d'algorithme, de base de données. 
+  Excellente gestion du temps et des compétences multi-tâches. 
+  Bonne compréhension des méthodes de recherche et d'analyse des données.
+
+
+
+ÉDUCATION
+  * septembre 2019 – Présent
+    UPHF, MAUBEUGE DUT Informatique
+
+    Diplôme informatique enseignant la conception, la réalisation et la mise en œuvre de systèmes informatiques. 2ème de ma promo en première année, je met toujours autant de rigueur dans mon travail en 2ème année.
+  * septembre 2016 – juillet 2019
+    LYCEE PIERRE BAYLE, SEDAN BACCALAUREAT
+
+    Baccalauréat sciences de l'ingénieur obtenu avec mention assez-bien.
+  * juin 2020 – juin 2021
+    FreeCodeCamp,  Responsive Web design certification
+
+    Formation de 300h de FreeCodeCamp sur le web design responsive
+
+PROJETS
+  * Solution mathématique python, , novembre 2020 – janvier 2021
+
+    
+  Développement de script python pour résoudre un problème mathématique 
+  Un site affichant la solution dynamique (selon des paramètres définis par l'utilisateur) 
+  Git versioning tout au long du projet 
+  Solution déployée sur un serveur personnel
+
+  * Réseau social web, , janvier 2021 – novembre 2020
+
+    Pendant mon temps libre je développe un réseau social web. Cela me permet de m'exercer en langages web comme le HTML, CSS, PHP, SQL, JS, ...
