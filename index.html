@@ -12,17 +12,74 @@
     <main>
         <div id="screen">
             <div id="center">
-                <img src="Group 1.svg" alt="" id="logo">
-                <div id="div-fleche">
-                    <img src="FlecheGauche.svg" alt="" id="FlecheGauche">
-                    <img src="FlecheDroite.svg" alt="" id="FlecheDroite">
+                <img src="img/Logo.svg" alt="" id="logo">
+                <div class="div-fleche">
+                    <img src="img/FlecheGauche.svg" alt="" id="FlecheGauche">
                 </div>
-                <div id="div-fleche-2">
-                    <img src="FlecheHaut.svg" alt="" id="FlecheHaut">
-                    <img src="FlecheBas.svg" alt="" id="FlecheBas">
+                <div class="div-fleche">
+                    <img src="img/FlecheDroite.svg" alt="" id="FlecheDroite">
+                </div>
+                <div class="div-fleche">
+                    <img src="img/FlecheHaut.svg" alt="" id="FlecheHaut">
+                    
+                </div>
+                <div class="div-fleche">
+                    <img src="img/FlecheBas.svg" alt="" id="FlecheBas">
                 </div>
             </div>
         </div>
     </main>
 </body>
 </html>
+
+<script>
+    document.querySelector('body').addEventListener('mousemove', animation, false);
+
+    function animation(event){
+        let body = document.querySelector('body');
+        let width = body.offsetWidth;
+        let height = body.offsetHeight;
+    
+        cursorX = event.pageX;
+        cursorY = event.pageY;
+
+        marginMin = 150;
+        marginMax = 200;
+        ecartMargin = marginMax - marginMin;
+        ecart = 60;
+
+        if(cursorX > width/2){
+            valeur = marginMin + (ecartMargin * (cursorX - width/2) / ecart);
+            if(valeur > marginMax){
+                valeur = marginMax
+            }
+            document.getElementById("FlecheDroite").style.marginLeft = valeur + "px";
+        }
+
+        if(cursorX < width/2){
+            valeur = marginMin + (ecartMargin * (width / 2 - cursorX) / ecart);
+            if(valeur > marginMax){
+                valeur = marginMax
+            }
+            document.getElementById("FlecheGauche").style.marginRight = valeur + "px";
+        }
+
+        if(cursorY < height/2){
+            valeur = marginMin + (ecartMargin * (height/2 - cursorY) / ecart);
+            if(valeur > marginMax){
+                valeur = marginMax
+            }
+            document.getElementById("FlecheHaut").style.marginBottom = valeur + "px";
+        }
+
+        if(cursorY > height/2){
+            valeur = marginMin + (ecartMargin * (cursorY - height/2) / ecart);
+            if(valeur > marginMax){
+                valeur = marginMax
+            }
+            document.getElementById("FlecheBas").style.marginTop = valeur + "px";
+        }
+
+    }
+    
+</script>

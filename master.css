@@ -8,29 +8,32 @@
     position: relative;
 }
 
-#div-fleche{
-    position: absolute;
-}
-
-#div-fleche-2{
+.div-fleche{
     position: absolute;
 }
 
 #FlecheHaut{
-    position: absolute;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 #FlecheBas{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 #FlecheDroite{
-    margin-left: 90px;
+    margin-left: 150px;
 }
 
 #FlecheGauche{
+    margin-right: 150px;
+}
 
+#FlecheGauche:hover{
+    margin-right: 200px;
+}
+
+#FlecheDroite:hover{
+    margin-left: 200px;
 }
 
 #screen{
